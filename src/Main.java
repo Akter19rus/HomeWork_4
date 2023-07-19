@@ -16,8 +16,7 @@ public class Main {
         System.out.println("Если человеку " + age + " то");
         if (age >= 18) {
             System.out.println(" Человек совершеннолетний!");
-        }
-        if (age < 18) {
+        } else {
             System.out.println(" Человек еще не совершеннолетний!");
         }
     }
@@ -29,8 +28,7 @@ public class Main {
         System.out.println("Если на улице температура " + temperature);
         if (temperature < 5) {
             System.out.println(" то на улице холодно, нужно надеть шапку!");
-        }
-        if (temperature >= 5) {
+        } else {
             System.out.println(" то сегодня тепло, шапку можно не надевать!");
         }
 
@@ -44,8 +42,7 @@ public class Main {
         boolean speedAllowed = speed > 60;
         if (speedAllowed) {
             System.out.println(" придется заплатить штраф!");
-        }
-        if (speed <= 60) {
+        } else {
             System.out.println(" Можно ездить спокойно!");
         }
     }
